@@ -1,4 +1,4 @@
 # my_base
 My art 258 class exercise
 
-[view Demo](https://github.com/tomytak/my_base)
+[view Demo](https://tomytak.github.io/my_base)
