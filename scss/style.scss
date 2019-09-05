@@ -1,10 +1,10 @@
 //VARIABLES
-$bodybackground: teal;
+$bodybackground:teal;
 
 // IMPORT PARTIALS
 
 @import 'partials/toc';
-
+@import 'partials/typography';
 body {
     background-color: $bodybackground;
 } 

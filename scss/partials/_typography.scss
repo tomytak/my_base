@@ -1,0 +1,33 @@
+/*BODY*/
+
+body{
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*HEADINGS*/
+h1, h2, h3 {
+    margin: .5em, 0;
+}    
+
+h1{
+        font-size:3em;
+        line-height: 1;
+        // font-family: poynter-oldstyle-text, serif;  
+        // font-weight: 700;
+        // font-style: normal;
+        font-family: $heading-fontfamily
+        margin: 0;
+    }
+
+    h2{
+        font-size: 2em;
+        line-height: 1.1;
+        font-family: $heading-fontfamily
+    }
+
+    h3{
+        font-size: 1.5em;
+        line-height: 1.2;
+        font-family: $heading-fontfamily
+    }
