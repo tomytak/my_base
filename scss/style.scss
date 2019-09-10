@@ -1,21 +1,9 @@
-//VARIABLES
-// $bodybackground: red;
-
-//IMPORT PARTIALS
-
-// @import 'partials/toc';
-// @import 'partials/typography';
-// body {
-//     background-color: $bodybackground;
-// } 
-
-
 // VARIABLES
 $body-fontfamily: 'acumin-pro', Helvetica, arial, sans-serif;
 $heading-fontfamily: 'Georgia', serif;
 
 //COLORS
-$bodybackground: rgb(173, 250, 255);
+$bodybackground: rgba(173, 250, 255, 0.995);
 $color-text-body: rgba(0,0,0,.5);
 $color-accent: coral;
 $color-midgrey: rgba(0,0,0,.5);
