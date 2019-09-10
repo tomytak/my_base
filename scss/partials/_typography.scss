@@ -1,33 +1,60 @@
 /*BODY*/
 
-body{
-    font-size: 1em;
+body {
+    font-family: $body-fontfamily;
+    font-size: 100%;
     line-height: 1.4;
+    background-color: $bodybackground;
+    color: $color-text-body;
 }
 
 /*HEADINGS*/
 h1, h2, h3 {
-    margin: .5em, 0;
-}    
+    font-family: $heading-fontfamily;
+    margin: .5em 0;
+    font-weight: 400;
+}
 
-h1{
-        font-size:3em;
-        line-height: 1;
-        // font-family: poynter-oldstyle-text, serif;  
-        // font-weight: 700;
-        // font-style: normal;
-        font-family: $heading-fontfamily
-        margin: 0;
-    }
+h1 {
+    font-size: 3em;
+    line-height: 1;
+}
+h2 {
+    font-size: 2em;
+    line-height: 1.1;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1.2;
+}
 
-    h2{
-        font-size: 2em;
-        line-height: 1.1;
-        font-family: $heading-fontfamily
-    }
+p {
+    max-width: 35em; 
+}
 
-    h3{
-        font-size: 1.5em;
-        line-height: 1.2;
-        font-family: $heading-fontfamily
-    }
+//LINKS
+a{color: $color-links;}
+a:hovber {color: $color-links-dark;
+}
+
+// HORIZONTAL RULE
+hr{
+    border: 0;
+    height: 1px;
+    background: rgba(0,0,0,.5);
+    margin: 3em 0;
+}
+
+// TYPE SPECIMEN
+
+.mainhead {
+    font-size: 6em;
+    color: $color-accent;
+    margin-bottom: 0;
+}
+
+.subhead {
+    font-family: $body-fontfamily;
+    color: $color-midgrey;
+    margin-bottom: 1em;
+}

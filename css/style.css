@@ -5,23 +5,25 @@ CSS TABLE OF CONTENTS
     #BODY
     #TYPOGRAPHY
     #LINKS
-
+    #BUTTONS
 ------------------------------*/
 /*BODY*/
 body {
-  font-size: 1em;
-  line-height: 1.4; }
+  font-family: "acumin-pro", Helvetica, arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.4;
+  background-color: #adfaff;
+  color: rgba(0, 0, 0, 0.5); }
 
 /*HEADINGS*/
 h1, h2, h3 {
-  margin: .5em, 0; }
+  font-family: "Georgia", serif;
+  margin: .5em 0;
+  font-weight: 400; }
 
 h1 {
   font-size: 3em;
-  line-height: 1;
-  font-family: poynter-oldstyle-text, serif;
-  font-weight: 700;
-  font-style: normal; }
+  line-height: 1; }
 
 h2 {
   font-size: 2em;
@@ -31,5 +33,43 @@ h3 {
   font-size: 1.5em;
   line-height: 1.2; }
 
-body {
-  background-color: teal; }
+p {
+  max-width: 35em; }
+
+a {
+  color: #069; }
+
+a:hovber {
+  color: #035; }
+
+hr {
+  border: 0;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 3em 0; }
+
+.mainhead {
+  font-size: 6em;
+  color: coral;
+  margin-bottom: 0; }
+
+.subhead {
+  font-family: "acumin-pro", Helvetica, arial, sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 1em; }
+
+.button {
+  font-size: inherit; }
+
+button,
+.button {
+  background-color: #069;
+  color: #fff;
+  padding: 1em 2em;
+  display: inline-block;
+  margin: .5em;
+  border-radius: .5em; }
+  button:hover,
+  .button:hover {
+    background-color: #035;
+    color: #fff; }
