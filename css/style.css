@@ -85,3 +85,25 @@ button,
       background-color: #035;
       color: #fff;
       border-color: #035; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+body {
+  font-size: 87.5%;
+  margin: 0; }
+
+.container {
+  padding: 4%;
+  margin: 0 auto; }
+
+@media (min-width: 768px) {
+  body {
+    font-size: 100%; } }
+
+@media (min-width: 1250px) {
+  body {
+    font-size: 112.5%; }
+  .container {
+    max-width: 1050px; } }
