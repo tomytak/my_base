@@ -5,7 +5,7 @@ $heading-fontfamily: 'Georgia', serif;
 //COLORS
 $bodybackground: rgba(173, 250, 255, 0.995);
 $color-text-body: rgba(0,0,0,.5);
-$color-accent: coral;
+$color-accent: coral; 
 $color-midgrey: rgba(0,0,0,.5);
 $color-links: #069;
 $color-links-dark: #035;
@@ -21,3 +21,4 @@ $breakpoint-large: 1250px;
 @import 'partials/buttons';
 @import 'partials/media';
 @import 'partials/layout';
+@import 'partials/grid';

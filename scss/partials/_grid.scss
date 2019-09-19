@@ -1,0 +1,31 @@
+// Grid
+// THIS ISA SIMPLE SEMANTIC GRID
+// 1/2 COL, 1/2COL, ETC.
+
+.row .column {
+    margin-bottom: 2%;
+}
+
+@media (min-width: $breakpoint-small){
+    .row { 
+        display: flex;
+        justify-content: center;
+    }
+
+        .column {
+            // color:red;
+            flex-grow: 1;
+            margin: 1%;
+        }
+}
+
+// for demo only
+.row.demo{
+    // background:limegreen;
+
+    .column {
+        background: rgba(0,0,0,.5);
+        padding: 1em;
+        text-align: center;  
+    }
+}

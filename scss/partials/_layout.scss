@@ -1,3 +1,9 @@
+//box sizing
+
+*{
+    box-sizing: border-box;
+}
+
 // RESPONSIVE TYPE SCALING PER BREAKPOINT
 // 14px on small screen
 // 16px on medium
@@ -9,7 +15,7 @@ body{
 }
 
 .container{
-    padding: 4%;
+    padding: 0 4%;
     margin: 0 auto;
 }
 
@@ -21,6 +27,9 @@ body{
 }
 
 @media (min-width: $breakpoint-medium) {
+    .container {
+        max-width: $breakpoint-medium; 
+    }
 }
 
 @media (min-width: $breakpoint-large) {
@@ -28,6 +37,6 @@ body{
         font-size: 112.5%; //18px
     }
     .container{
-        max-width: $breakpoint-medium;
+        max-width: $breakpoint-large;
     }
 }

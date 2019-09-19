@@ -90,20 +90,50 @@ img {
   max-width: 100%;
   height: auto; }
 
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
 body {
   font-size: 87.5%;
   margin: 0; }
 
 .container {
-  padding: 4%;
+  padding: 0 4%;
   margin: 0 auto; }
 
 @media (min-width: 768px) {
   body {
     font-size: 100%; } }
 
+@media (min-width: 1050px) {
+  .container {
+    max-width: 1050px; } }
+
 @media (min-width: 1250px) {
   body {
     font-size: 112.5%; }
   .container {
-    max-width: 1050px; } }
+    max-width: 1250px; } }
+
+.row .column {
+  margin-bottom: 2%; }
+
+@media (min-width: 768px) {
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .column {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin: 1%; } }
+
+.row.demo .column {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1em;
+  text-align: center; }
