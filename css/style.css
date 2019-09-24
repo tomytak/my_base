@@ -126,12 +126,22 @@ body {
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center; }
+    justify-content: center;
+    margin-left: -1%;
+    margin-right: -1%; }
   .column {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    margin: 1%; } }
+    margin: 1%; }
+    .column.one-half {
+      width: 48%; }
+    .column.one-third {
+      width: 31.3333%; }
+    .column.two-thirds {
+      width: 64.6666%; }
+    .column.one-fourth {
+      width: 23%; } }
 
 .row.demo .column {
   background: rgba(0, 0, 0, 0.5);
