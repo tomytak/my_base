@@ -1,0 +1,50 @@
+// site header
+.site-header, .site-footer{
+   background-color: $color-accent; 
+   padding: 1em;
+   color: #fff;
+   display: flex;
+   justify-content: space-between;
+
+   h1{
+        font-family: $body-fontfamily;
+        font-size: 1.5em;
+        margin: .5em 0 0 0; 
+        // to adjust baseline
+    }
+
+    a{
+        color:#fff; 
+        text-decoration: none;
+        list-style: none;
+    }
+}
+
+.site-footer{
+    justify-content: center;
+    margin-top: 6em;
+}
+.site-nav{
+    ul{
+        margin: 0; 
+        padding: 0;
+        display: flex;
+        list-style: none;
+    }
+
+    a {
+    padding: 1em;
+    display: block;
+    }
+}
+.hero {
+    background-color: $color-hero-bg;
+    padding: 6em 1em;
+    text-align: center;
+
+    p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+

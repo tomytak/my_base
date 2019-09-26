@@ -9,6 +9,7 @@ $color-accent: coral;
 $color-midgrey: rgba(0,0,0,.5);
 $color-links: #069;
 $color-links-dark: #035;
+$color-hero-bg: yellow;
 
 // BREAKPONT
 $breakpoint-small: 768px;
@@ -22,3 +23,4 @@ $breakpoint-large: 1250px;
 @import 'partials/media';
 @import 'partials/layout';
 @import 'partials/grid';
+@import 'partials/structure'; 
