@@ -45,6 +45,24 @@ hr{
     margin: 3em 0;
 }
 
+// helper
+.sectionhead{
+    font-family: $body-fontfamily;
+    font-size: 1em;
+    line-height:1;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin-bottom: 3em;
+}
+
+.meta {
+    display: block;
+    font-size: .7em;
+    color: $color-midgrey;
+    margin: 0 0 2em 0;
+}
+
 // TYPE SPECIMEN
 
 .mainhead {

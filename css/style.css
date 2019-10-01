@@ -48,6 +48,21 @@ hr {
   background: rgba(0, 0, 0, 0.5);
   margin: 3em 0; }
 
+.sectionhead {
+  font-family: "acumin-pro", Helvetica, arial, sans-serif;
+  font-size: 1em;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  margin-bottom: 3em; }
+
+.meta {
+  display: block;
+  font-size: .7em;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 0 2em 0; }
+
 .mainhead {
   font-size: 6em;
   color: coral;
@@ -184,6 +199,9 @@ body {
 .site-nav a {
   padding: 1em;
   display: block; }
+
+section {
+  padding: 6em 0; }
 
 .hero {
   background-color: yellow;
