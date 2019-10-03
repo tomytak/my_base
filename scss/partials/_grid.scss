@@ -5,14 +5,31 @@ $gutter-width: 2%;
 .row .column {
     margin-bottom: $gutter-width;
 }
+ 
+.row .column { margin-bottom: $gutter-width;}
 
+// flexbox
 @media (min-width: $breakpoint-small){
     .row { 
         display: flex;
         justify-content: center;
+        align-items: center;
         margin-left: -$gutter-width/2;
         margin-right: -$gutter-width/2;
     }
+
+        &.swap {flex-direction: row-reverse;}
+        // &.center { 
+        //     display: block;
+        //         .column {
+        //         margin-left: auto;
+        //         margin-right: auto;
+        //         }
+        // }
+        &.center {
+            flex-direction: column;
+            align-items: center;
+        }
 
         .column {
             // color:red;
